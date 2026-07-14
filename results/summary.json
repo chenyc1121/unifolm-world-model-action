@@ -1,0 +1,142 @@
+[
+  {
+    "scenario": "unitree_g1_pack_camera",
+    "case_id": 1,
+    "time_before_optim": 1008.587,
+    "time_after_optim": 220.875,
+    "psnr": 29.913279943633736
+  },
+  {
+    "scenario": "unitree_g1_pack_camera",
+    "case_id": 2,
+    "time_before_optim": 1002.472,
+    "time_after_optim": 203.338,
+    "psnr": 36.215916644839346
+  },
+  {
+    "scenario": "unitree_g1_pack_camera",
+    "case_id": 3,
+    "time_before_optim": 969.084,
+    "time_after_optim": 196.681,
+    "psnr": 30.842585356500816
+  },
+  {
+    "scenario": "unitree_g1_pack_camera",
+    "case_id": 4,
+    "time_before_optim": 1093.663,
+    "time_after_optim": 219.312,
+    "psnr": 31.71242311982569
+  },
+  {
+    "scenario": "unitree_z1_dual_arm_cleanup_pencils",
+    "case_id": 1,
+    "time_before_optim": null,
+    "time_after_optim": 163.353,
+    "psnr": 44.03702911627092
+  },
+  {
+    "scenario": "unitree_z1_dual_arm_cleanup_pencils",
+    "case_id": 2,
+    "time_before_optim": null,
+    "time_after_optim": 163.878,
+    "psnr": 45.91872882296366
+  },
+  {
+    "scenario": "unitree_z1_dual_arm_cleanup_pencils",
+    "case_id": 3,
+    "time_before_optim": null,
+    "time_after_optim": 164.401,
+    "psnr": 38.11299269036165
+  },
+  {
+    "scenario": "unitree_z1_dual_arm_cleanup_pencils",
+    "case_id": 4,
+    "time_before_optim": null,
+    "time_after_optim": 163.525,
+    "psnr": 45.33994639000903
+  },
+  {
+    "scenario": "unitree_z1_dual_arm_stackbox",
+    "case_id": 1,
+    "time_before_optim": 684.41,
+    "time_after_optim": 144.551,
+    "psnr": 40.41475685001986
+  },
+  {
+    "scenario": "unitree_z1_dual_arm_stackbox",
+    "case_id": 2,
+    "time_before_optim": null,
+    "time_after_optim": 145.399,
+    "psnr": 39.302735116845085
+  },
+  {
+    "scenario": "unitree_z1_dual_arm_stackbox",
+    "case_id": 3,
+    "time_before_optim": null,
+    "time_after_optim": 145.676,
+    "psnr": 38.7333903269128
+  },
+  {
+    "scenario": "unitree_z1_dual_arm_stackbox",
+    "case_id": 4,
+    "time_before_optim": null,
+    "time_after_optim": 144.248,
+    "psnr": 39.33594553683594
+  },
+  {
+    "scenario": "unitree_z1_dual_arm_stackbox_v2",
+    "case_id": 1,
+    "time_before_optim": null,
+    "time_after_optim": 219.623,
+    "psnr": 25.086200062889905
+  },
+  {
+    "scenario": "unitree_z1_dual_arm_stackbox_v2",
+    "case_id": 2,
+    "time_before_optim": null,
+    "time_after_optim": 219.101,
+    "psnr": 26.311884114808777
+  },
+  {
+    "scenario": "unitree_z1_dual_arm_stackbox_v2",
+    "case_id": 3,
+    "time_before_optim": null,
+    "time_after_optim": 219.43200000000002,
+    "psnr": 29.427848622023134
+  },
+  {
+    "scenario": "unitree_z1_dual_arm_stackbox_v2",
+    "case_id": 4,
+    "time_before_optim": null,
+    "time_after_optim": 219.79399999999998,
+    "psnr": 25.880427621776118
+  },
+  {
+    "scenario": "unitree_z1_stackbox",
+    "case_id": 1,
+    "time_before_optim": null,
+    "time_after_optim": 238.86599999999999,
+    "psnr": 41.3631513029307
+  },
+  {
+    "scenario": "unitree_z1_stackbox",
+    "case_id": 2,
+    "time_before_optim": null,
+    "time_after_optim": 239.098,
+    "psnr": 35.733548979062604
+  },
+  {
+    "scenario": "unitree_z1_stackbox",
+    "case_id": 3,
+    "time_before_optim": null,
+    "time_after_optim": 239.784,
+    "psnr": 45.403705616893056
+  },
+  {
+    "scenario": "unitree_z1_stackbox",
+    "case_id": 4,
+    "time_before_optim": null,
+    "time_after_optim": 238.401,
+    "psnr": 47.67739159968281
+  }
+]

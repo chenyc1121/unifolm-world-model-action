@@ -1,0 +1,151 @@
+2026-07-13 08:56:21.536812: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-07-13 08:56:21.548820: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-13 08:56:21.562465: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-13 08:56:21.566286: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-07-13 08:56:21.576540: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-07-13 08:56:22.083750: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Global seed set to 123
+>>> FP16 autocast enabled
+>>> FP16 matmul reduced-precision reduction disabled
+>>> Meta-device architecture initialization enabled
+>>> DDIM steps: action=50, video=50
+>>> Final-only output enabled: skipping TensorBoard and per-iteration MP4 files
+>>> Async per-iteration output ignored by final-only mode
+>>> Skipping redundant OpenCLIP pretrained loads
+>>> Skipping unused inference action EMA model
+>>> Checkpoint weights_only mmap enabled
+>>> Checkpoint assign loading enabled
+INFO:mainlogger:LatentVisualDiffusion: Running in v-prediction mode
+INFO:unifolm_wma.models.diffusion_head.conditional_unet1d:number of parameters: 5.010531e+08
+INFO:unifolm_wma.models.diffusion_head.conditional_unet1d:number of parameters: 5.010531e+08
+AE working on z of shape (1, 4, 32, 32) = 4096 dimensions.
+INFO:root:Loaded ViT-H-14 model config.
+INFO:root:Loaded ViT-H-14 model config.
+>>> Skipped 345 unused inference EMA tensors
+>>> Meta runtime buffers materialized: buffers=7, handlers=5
+>>> model checkpoint loaded.
+>>> Load pre-trained model ...
+INFO:root:***** Configing Data *****
+>>> unitree_z1_stackbox: 1 data samples loaded.
+>>> unitree_z1_stackbox: data stats loaded.
+>>> unitree_z1_stackbox: normalizer initiated.
+>>> unitree_z1_dual_arm_stackbox: 1 data samples loaded.
+>>> unitree_z1_dual_arm_stackbox: data stats loaded.
+>>> unitree_z1_dual_arm_stackbox: normalizer initiated.
+>>> unitree_z1_dual_arm_stackbox_v2: 1 data samples loaded.
+>>> unitree_z1_dual_arm_stackbox_v2: data stats loaded.
+>>> unitree_z1_dual_arm_stackbox_v2: normalizer initiated.
+>>> unitree_z1_dual_arm_cleanup_pencils: 1 data samples loaded.
+>>> unitree_z1_dual_arm_cleanup_pencils: data stats loaded.
+>>> unitree_z1_dual_arm_cleanup_pencils: normalizer initiated.
+>>> unitree_g1_pack_camera: 1 data samples loaded.
+>>> unitree_g1_pack_camera: data stats loaded.
+>>> unitree_g1_pack_camera: normalizer initiated.
+>>> Dataset is successfully loaded ...
+>>> PyTorch SDPA enabled for masked agent-action attention
+>>> Sampler-level action/state observation cache enabled
+>>> Generic action/state head ABI validated: tensors=347
+>>> Exported generic phase-head pruning enabled: one action-shaped graph, phase-selectable lifted weights
+>>> torch.compile fixed hybrid denoiser enabled: backend=inductor, mode=default, fullgraph=True, dynamic=False, fx_graph_cache=True
+>>> Generate 16 frames under each generation ...
+DEBUG:h5py._conv:Creating converter from 3 to 5
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 62 4096
+  0%|          | 0/11 [00:00<?, ?it/s]  9%|▉         | 1/11 [00:22<03:46, 22.65s/it] 18%|█▊        | 2/11 [00:41<03:01, 20.21s/it] 27%|██▋       | 3/11 [01:00<02:36, 19.59s/it] 36%|███▋      | 4/11 [01:18<02:14, 19.18s/it] 45%|████▌     | 5/11 [01:37<01:54, 19.03s/it] 55%|█████▍    | 6/11 [01:55<01:34, 18.86s/it] 64%|██████▎   | 7/11 [02:14<01:14, 18.74s/it] 73%|███████▎  | 8/11 [02:33<00:56, 18.75s/it] 82%|████████▏ | 9/11 [02:51<00:37, 18.67s/it] 91%|█████████ | 10/11 [03:10<00:18, 18.73s/it]100%|██████████| 11/11 [03:29<00:00, 18.68s/it]100%|██████████| 11/11 [03:29<00:00, 19.00s/it]
+>>> Step 0: generating actions ...
+>>> AOTInductor precompiled graph loaded: seconds=0.001, size_mib=2.700
+>>> Exported generic phase graph prepared: inputs=1867, user_inputs=9, graph_cache_hit=True, export_seconds=0.000
+>>> Step 0: interacting with world model ...
+>>>>>>>>>>>>>>>>>>>>>>>>
+>>> Step 1: generating actions ...
+>>> Step 1: interacting with world model ...
+>>>>>>>>>>>>>>>>>>>>>>>>
+>>> Step 2: generating actions ...
+>>> Step 2: interacting with world model ...
+>>>>>>>>>>>>>>>>>>>>>>>>
+>>> Step 3: generating actions ...
+>>> Step 3: interacting with world model ...
+>>>>>>>>>>>>>>>>>>>>>>>>
+>>> Step 4: generating actions ...
+>>> Step 4: interacting with world model ...
+>>>>>>>>>>>>>>>>>>>>>>>>
+>>> Step 5: generating actions ...
+>>> Step 5: interacting with world model ...
+>>>>>>>>>>>>>>>>>>>>>>>>
+>>> Step 6: generating actions ...
+>>> Step 6: interacting with world model ...
+>>>>>>>>>>>>>>>>>>>>>>>>
+>>> Step 7: generating actions ...
+>>> Step 7: interacting with world model ...
+>>>>>>>>>>>>>>>>>>>>>>>>
+>>> Step 8: generating actions ...
+>>> Step 8: interacting with world model ...
+>>>>>>>>>>>>>>>>>>>>>>>>
+>>> Step 9: generating actions ...
+>>> Step 9: interacting with world model ...
+>>>>>>>>>>>>>>>>>>>>>>>>
+>>> Step 10: generating actions ...
+>>> Step 10: interacting with world model ...
+>>>>>>>>>>>>>>>>>>>>>>>>
+>>> torch.compile summary
+>>> COMPILE aot_artifact_mib: 2.6997909545898438
+>>> COMPILE aot_load_seconds: 0.0009143650531768799
+>>> COMPILE compiled_action_action_max_abs: 0.001953125
+>>> COMPILE compiled_action_action_mean_abs: 0.0003398880362510681
+>>> COMPILE compiled_action_action_relative_l2: 0.0005564583698287606
+>>> COMPILE compiled_action_state_max_abs: 0.0
+>>> COMPILE compiled_action_state_mean_abs: 0.0
+>>> COMPILE compiled_action_state_relative_l2: 0.0
+>>> COMPILE compiled_action_video_max_abs: 0.003082275390625
+>>> COMPILE compiled_action_video_mean_abs: 0.0002955853415187448
+>>> COMPILE compiled_action_video_relative_l2: 0.0006106563378125429
+>>> COMPILE compiled_state_action_max_abs: 0.0
+>>> COMPILE compiled_state_action_mean_abs: 0.0
+>>> COMPILE compiled_state_action_relative_l2: 0.0
+>>> COMPILE compiled_state_state_max_abs: 0.001953125
+>>> COMPILE compiled_state_state_mean_abs: 0.0003088712692260742
+>>> COMPILE compiled_state_state_relative_l2: 0.0004886322421953082
+>>> COMPILE compiled_state_video_max_abs: 0.0048828125
+>>> COMPILE compiled_state_video_mean_abs: 0.00033315608743578196
+>>> COMPILE compiled_state_video_relative_l2: 0.0007002867059782147
+>>> COMPILE eager_probe_action_seconds: 0.9705655882135034
+>>> COMPILE eager_probe_state_seconds: 0.7056727660819888
+>>> COMPILE exported_eager_action_action_max_abs: 0.0
+>>> COMPILE exported_eager_action_action_mean_abs: 0.0
+>>> COMPILE exported_eager_action_action_relative_l2: 0.0
+>>> COMPILE exported_eager_action_seconds: 0.2957252347841859
+>>> COMPILE exported_eager_action_video_max_abs: 0.0
+>>> COMPILE exported_eager_action_video_mean_abs: 0.0
+>>> COMPILE exported_eager_action_video_relative_l2: 0.0
+>>> COMPILE exported_eager_state_seconds: 0.29665275383740664
+>>> COMPILE exported_eager_state_state_max_abs: 0.0
+>>> COMPILE exported_eager_state_state_mean_abs: 0.0
+>>> COMPILE exported_eager_state_state_relative_l2: 0.0
+>>> COMPILE exported_eager_state_video_max_abs: 0.0
+>>> COMPILE exported_eager_state_video_mean_abs: 0.0
+>>> COMPILE exported_eager_state_video_relative_l2: 0.0
+>>> COMPILE generic_export_inputs: 1867
+>>> COMPILE generic_export_seconds: 0.0
+>>> COMPILE generic_first_action_seconds: 0.2987862597219646
+>>> COMPILE generic_first_state_seconds: 0.17551276925951242
+>>> COMPILE generic_graph_cache_hit: 1
+>>> COMPILE generic_graph_cache_load_seconds: 1.173124955035746
+>>> COMPILE generic_head_abi_tensors: 347
+>>> COMPILE semantic_action_action_max_abs: 0.0
+>>> COMPILE semantic_action_action_mean_abs: 0.0
+>>> COMPILE semantic_action_action_relative_l2: 0.0
+>>> COMPILE semantic_action_video_max_abs: 0.0
+>>> COMPILE semantic_action_video_mean_abs: 0.0
+>>> COMPILE semantic_action_video_relative_l2: 0.0
+>>> COMPILE semantic_state_state_max_abs: 0.0
+>>> COMPILE semantic_state_state_mean_abs: 0.0
+>>> COMPILE semantic_state_state_relative_l2: 0.0
+>>> COMPILE semantic_state_video_max_abs: 0.0
+>>> COMPILE semantic_state_video_mean_abs: 0.0
+>>> COMPILE semantic_state_video_relative_l2: 0.0
+
+real	3m40.875s
+user	140m45.824s
+sys	1m27.870s
